@@ -11,6 +11,8 @@ COPY package.json ./
 #COPY package-lock.json ./
 RUN npm install --silent
 RUN npm install react-scripts@3.4.1 -g --silent
+ENV name=buyer-frontend
+ENV backend_endpoint=https://backend1.sellplus.com
 
 # add app
 COPY . ./
