@@ -19,4 +19,5 @@ ENV name=buyer-frontend
 ENV backend_endpoint=https://backend1.sellplus.com
 
 # start app
+
 CMD ["npm", "start"]
