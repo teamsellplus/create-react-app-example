@@ -17,6 +17,7 @@ ENV backend_endpoint=https://backend1.sellplus.com
 # add app
 COPY . ./
 
+
 # start app
 CMD ["npm", "start"]
 
